@@ -1,7 +1,10 @@
-import React from "react";
+import { combineReducers } from "redux";
+import cakeReducer from "./buyCake/cakeReducer";
+import iceCreamReducer from "./buyIceCream/iceCreamReducer";
 
-function reducer() {
-  return <div></div>;
-}
+const reducer = combineReducers({
+  cake: cakeReducer,
+  iceCream: iceCreamReducer,
+});
 
 export default reducer;
