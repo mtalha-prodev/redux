@@ -5,15 +5,18 @@ import store from "./redux/store";
 import ReduxTwo from "./components/ReduxTwo";
 import ReduxThree from "./components/ReduxThree";
 import ReduxFour from "./components/ReduxFour";
+import UserContainer from "./components/UserContainer";
 
 function App() {
   return (
     <Provider store={store}>
       <div className="App">
         {/* <ReduxTwo /> */}
-        <ReduxOne />
+        {/* <ReduxOne />
         <ReduxThree />
-        <ReduxFour />
+        <ReduxFour /> */}
+
+        <UserContainer />
       </div>
     </Provider>
   );
