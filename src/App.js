@@ -6,6 +6,7 @@ import ReduxTwo from "./components/ReduxTwo";
 import ReduxThree from "./components/ReduxThree";
 import ReduxFour from "./components/ReduxFour";
 import UserContainer from "./components/UserContainer";
+import UserContainerTwo from "./components/UserContainerTwo";
 
 function App() {
   return (
@@ -16,7 +17,8 @@ function App() {
         <ReduxThree />
         <ReduxFour /> */}
 
-        <UserContainer />
+        {/* <UserContainer /> */}
+        <UserContainerTwo/>
       </div>
     </Provider>
   );
